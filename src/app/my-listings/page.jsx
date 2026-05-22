@@ -2,6 +2,9 @@ import React from 'react'
 import { auth } from '@/lib/auth'
 import { headers } from 'next/headers'
 import MyListingsManager from '@/components/MyListingsManager'
+ export const metadata = {
+    title: 'My listings',
+  }
 
 const MyListing = async () => {
 	const session = await auth.api.getSession({

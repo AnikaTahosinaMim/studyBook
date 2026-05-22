@@ -1,7 +1,12 @@
 import BookCard from "@/components/BookCard";
+ export const metadata = {
+    title: 'Books',
+  }
 
 const BookingPages = async ({ searchParams }) => {
   const params = await searchParams;
+ 
+  
 
   const search = params?.search || "";
   const amenities = params?.amenities || "";

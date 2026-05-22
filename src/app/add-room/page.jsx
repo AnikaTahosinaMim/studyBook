@@ -4,6 +4,9 @@ import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
 import { useSession } from '@/lib/auth-client'
+export const metadata = {
+	title: 'Add rooms',
+}
 
 const AddRooms = () => {
 	const router = useRouter()
