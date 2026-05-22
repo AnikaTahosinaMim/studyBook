@@ -22,19 +22,16 @@ const Navbar = () => {
 		router.push('/login')
 	}
 
-	// ACTIVE ROUTE CHECK
 	const isActive = (path) => pathname === path
 
 	return (
 		<nav className='sticky top-0 z-50 bg-white border-b shadow-sm'>
 			<div className='container mx-auto flex items-center justify-between px-4 py-3'>
-				{/* Logo */}
 				<div className='flex items-center gap-2 font-bold text-xl'>
 					<FaBookReader className='text-purple-600' />
 					<span>Study Nook</span>
 				</div>
 
-				{/* Desktop Menu */}
 				<div className='hidden md:flex items-center gap-6 text-gray-700'>
 					<Link
 						href='/'
@@ -90,7 +87,6 @@ const Navbar = () => {
 					)}
 				</div>
 
-				{/* Right Side */}
 				<div className='hidden md:flex items-center gap-4'>
 					{!session ? (
 						<>
@@ -106,7 +102,6 @@ const Navbar = () => {
 						</>
 					) : (
 						<div className='relative'>
-							{/* Profile Button */}
 							<button
 								onClick={() => setDropdown(!dropdown)}
 								className='flex items-center gap-2 border px-2 py-1 rounded-full hover:shadow-md'
@@ -123,7 +118,6 @@ const Navbar = () => {
 								</span>
 							</button>
 
-							{/* Dropdown */}
 							{dropdown && (
 								<div className='absolute right-0 mt-2 w-48 bg-white border rounded-xl shadow-lg overflow-hidden'>
 									<Link

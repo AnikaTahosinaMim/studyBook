@@ -18,7 +18,7 @@ const MyListing = async () => {
 
 	return (
 		<div className='container mx-auto py-10'>
-			<h2 className='text-3xl font-bold mb-8 text-center'>My Listing</h2>
+			<h2 className='text-3xl font-bold mb-8 text-center'>My Listings</h2>
 			{session?.user?.email ? (
 				<MyListingsManager rooms={myRooms} />
 			) : (

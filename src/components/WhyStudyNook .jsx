@@ -6,7 +6,6 @@ import { FaBolt, FaLock, FaMoneyBillWave, FaMapMarkerAlt } from 'react-icons/fa'
 const WhyStudyNook = () => {
 	return (
 		<div className='py-20 px-6 bg-gradient-to-b from-purple-50 to-white text-center'>
-			{/* Title */}
 			<motion.h2
 				initial={{ opacity: 0, y: 30 }}
 				whileInView={{ opacity: 1, y: 0 }}
@@ -16,9 +15,7 @@ const WhyStudyNook = () => {
 				Why StudyNook?
 			</motion.h2>
 
-			{/* Grid */}
 			<div className='grid md:grid-cols-4 gap-8 max-w-6xl mx-auto'>
-				{/* Card 1 */}
 				<motion.div
 					whileHover={{ scale: 1.05 }}
 					className='p-6 rounded-2xl bg-white/70 backdrop-blur-md shadow-lg border border-purple-100 transition'
@@ -30,7 +27,6 @@ const WhyStudyNook = () => {
 					</p>
 				</motion.div>
 
-				{/* Card 2 */}
 				<motion.div
 					whileHover={{ scale: 1.05 }}
 					className='p-6 rounded-2xl bg-white/70 backdrop-blur-md shadow-lg border border-purple-100 transition'
@@ -42,7 +38,6 @@ const WhyStudyNook = () => {
 					</p>
 				</motion.div>
 
-				{/* Card 3 */}
 				<motion.div
 					whileHover={{ scale: 1.05 }}
 					className='p-6 rounded-2xl bg-white/70 backdrop-blur-md shadow-lg border border-purple-100 transition'
@@ -54,7 +49,6 @@ const WhyStudyNook = () => {
 					</p>
 				</motion.div>
 
-				{/* Card 4 */}
 				<motion.div
 					whileHover={{ scale: 1.05 }}
 					className='p-6 rounded-2xl bg-white/70 backdrop-blur-md shadow-lg border border-purple-100 transition'
