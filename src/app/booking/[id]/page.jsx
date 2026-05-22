@@ -60,7 +60,7 @@ const BookDetails = async ({ params }) => {
         <div className="rounded-3xl overflow-hidden border bg-white shadow-xl">
           <Image
             src={roomImage}
-            alt={roomName || "Study room"}
+            alt={roomName || "Study rm"}
             height={500}
             width={900}
             className="w-full object-cover h-[320px]"
@@ -70,6 +70,7 @@ const BookDetails = async ({ params }) => {
             <h1 className="text-3xl font-bold text-slate-900">
               {roomName || "Study Room"}
             </h1>
+            {/* room name */}
 
             <p className="mt-3 text-slate-600">
               {specialNote ||
