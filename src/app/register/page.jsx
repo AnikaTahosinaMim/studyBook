@@ -52,6 +52,9 @@ export default function Register() {
       provider: "google",
       callbackURL: "/",
     });
+      // if(data){
+    //   toast.success("register with Google")
+    // }
   };
   return (
     <div className="min-h-[80vh] flex flex-col bg-slate-50 py-12">
