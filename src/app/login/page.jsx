@@ -65,8 +65,9 @@ export default function Login() {
       provider: "google",
       callbackURL: "/",
     });
-    // const { data: tokenData, error } = await authClient.token();
-    // console.log(tokenData,"tokens");
+    // if(data){
+    //   toast.success("login with Google")
+    // }
   };
   return (
     <div className="min-h-[80vh] flex flex-col bg-slate-50">
