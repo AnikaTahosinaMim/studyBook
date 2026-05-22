@@ -58,7 +58,7 @@ export default function MyBookingsClient({ bookings }) {
 
   return (
     <div>
-      <h2 className="my-6 text-2xl font-bold">My Bookings</h2>
+      <h2 className="my-6 text-2xl font-bold">My Booking</h2>
 
       <div className="overflow-x-auto">
         <table className="w-full border-collapse rounded-lg overflow-hidden shadow">
