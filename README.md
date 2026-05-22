@@ -1,6 +1,6 @@
 # 🏠 StudyNook – Room Booking Platform
 
-🌐 Live Site: https://notebook-booking.vercel.app
+🌐 Live Site: https://study-nook-client-main.vercel.app
 
 ---
 
